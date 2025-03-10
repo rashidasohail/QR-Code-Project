@@ -4,40 +4,38 @@ This Node.js application allows users to generate a QR code image from a given U
 
 **Features**
 
-Uses the inquirer package to prompt the user for a URL input.
+1.Uses the inquirer package to prompt the user for a URL input.
 
-Converts the URL into a QR code image using the qr-image package.
+2.Converts the URL into a QR code image using the qr-image package.
 
-Saves the URL into a URL.txt file using the native fs module.
+3.Saves the URL into a URL.txt file using the native fs module.
 
 **Prerequisites**
 
-Ensure you have Node.js installed on your system. You can check by running:
-
-node -v
+Ensure you have Node.js installed on your system. You can check by running: node -v
 
 **Installation**
 
-cd <project-directory>
+1.cd <project-directory>
 
-Install the required dependencies:
+2.Install the required dependencies:
 
-npm install inquirer qr-image fs
+3.npm install inquirer qr-image fs
 
 **Usage**
 
-Run the script using:  node index.js
+1.Run the script using: node index.js
 
-Enter the URL when prompted.
+2.Enter the URL when prompted.
 
-The application will generate a QR code image (qr_image.png) and save the entered URL into URL.txt.
+3.The application will generate a QR code image (qr_image.png) and save the entered URL into URL.txt.
 
-Check the project folder for the generated QR code image and text file.
+4.Check the project folder for the generated QR code image and text file.
 
 **Dependencies**
 
-inquirer - To prompt user input.
+1.inquirer - To prompt user input.
 
-qr-image - To generate QR code images.
+2.qr-image - To generate QR code images.
 
-fs - Native Node.js module for file system operations.
+3.fs - Native Node.js module for file system operations.
