@@ -1,5 +1,4 @@
-**QR Code Generator
-**
+**QR Code Generator**
 This Node.js application allows users to generate a QR code image from a given URL and save the URL into a text file.
 
 **Features**
