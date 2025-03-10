@@ -26,9 +26,7 @@ npm install inquirer qr-image fs
 
 **Usage**
 
-Run the script using:
-
-node index.js
+Run the script using:  node index.js
 
 Enter the URL when prompted.
 
