@@ -16,7 +16,7 @@ Ensure you have Node.js installed on your system. You can check by running: node
 
 **Installation**
 
-1.cd **<project-directory>**
+1.cd project-directory
 
 2.Install the required dependencies:
 
